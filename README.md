@@ -1,6 +1,6 @@
 # House price estimator
 
-*housing-build-model.py*: Build a KNN model based on King County housing dataset.  Model is saved to housing-knn.pkl.  Only run once to create pickle file. 
+*housing-build-model.py*: Build an RF and KNN model based on King County housing dataset.  Model are saved to housing-knn.pkl and housing-rf.pkl.  Only run once to create pickle files. 
 
 *housing-predict.py*: FastAPI app with a single endpoint that returns price estimate given: # bedrooms, # bathrooms, living space, lot size.  API uses previously trained KNN model (generated from file above).  
 
